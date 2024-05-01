@@ -1,0 +1,164 @@
+
+{
+      box-sizing: border-box;
+    }
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+    body {
+      background: linear-gradient(to bottom, #f6f6f8, #f8f8fa);
+      font: 14px/1.3 "Roboto", Arial, sans-serif;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .blockScreen {
+      align-items: center;
+      color: #666e80;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+      position: relative;
+      text-align: center;
+      z-index: 0;
+    }
+    .blockScreen a {
+      color: #666e80;
+    }
+    .blockScreen svg {
+      margin: 16px 0 8px;
+    }
+    .blockScreen .svgAccessBlocked-paths {
+      stroke: #;
+      stroke: ;
+    }
+    .blockScreen .blockScreen-customSchoolName {
+      color: rgb(247, 15, 15);
+      font: 400 18px/1 "Roboto", Arial, sans-serif;
+      margin: 0 16px;
+    }
+    .blockScreen .lockoutScreen-stripe {
+      display: none;
+    }
+    .blockScreen .lockoutScreen-svg {
+      display: none;
+    }
+    .blockScreen .blockScreen-stripe {
+      background: #0000FF;
+      background: ;
+      color: rgba(255, 255, 255, 0.8);
+      flex: 0 1 auto;
+      margin: 32px 0;
+      padding: 24px 16px;
+      width: 100%;
+    }
+    .blockScreen .blockScreenStripe-website {
+      font: 30px "Roboto", Arial, sans-serif;
+      color: white;
+    }
+    .blockScreen .blockScreen-systemMessage,
+    .blockScreen .blockScreen-customBodyText {
+      margin: 0 16px 8px;
+      max-width: 640px;
+    }
+    .blockScreen .blockScreen-override {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+      color: rgb(64, 5, 241);
+      display: inline-block;
+      line-height: 34px;
+      margin: 16px;
+      min-width: 80px;
+      padding: 0 16px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .blockScreen .blockScreen-override:hover {
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .blockScreen .blockScreen-customFooterText {
+      bottom: 16px;
+      font-size: 12px;
+      left: 0;
+      padding: 0 16px;
+      position: absolute;
+      width: 100%;
+    }
+    .hidden {
+      display: none;
+    }
+    .code {
+      display: none;
+    }
+    .lockoutScreen .blockScreen-svg {
+      display: none;
+    }
+    .lockoutScreen .lockoutScreen-svg {
+      display: block;
+    }
+    .lockoutScreen .blockScreen-stripe {
+      display: none;
+    }
+    .lockoutScreen .lockoutScreen-stripe {
+      background: #00AFD7;
+      background: ;
+      color: rgba(7, 27, 244, 0.8);
+      display: block;
+      flex: 0 1 auto;
+      font-size: 32px;
+      margin: 32px 0;
+      padding: 24px 16px;
+      width: 100%;
+    }
+    .lockoutScreen .lockoutScreen-stripe .lockoutScreen-stripeContent {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+    .lockoutScreen .blockScreen-controls {
+      margin: 16px 0;
+    }
+    .lockoutScreen .code {
+      background: transparent;
+      border: 1px solid #3309ed;
+      border-bottom-left-radius: 4px;
+      border-right: 0;
+      border-top-left-radius: 4px;
+      color: #0e2bec;
+      display: inline-block;
+      font: 14px/1.3 "Roboto", Arial, sans-serif;
+      line-height: 20px;
+      margin-right: 4px;
+      padding: 0 16px;
+      vertical-align: top;
+    }
+    .lockoutScreen .blockScreen-override {
+      background: #051dfb;
+      border-color: #061fdc;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      display: inline-block;
+      margin: 0;
+    }
+    .lockoutScreen .blockScreen-override:hover {
+      background: rgba(255, 255, 255, 0.2a);
+    }
+    A:link, A:visited{
+        color:rgb(12, 9, 230);
+        padding:7px 10px;
+        text-align:center;
+        text-decoration:none;
+        display:inline-block ;
+        background-color:black;
+        font-size: 30px
+    }
+    B{
+        color:rgb(10, 50, 248);
+        font-size: 50px;
+    }
+        
+  </style>
